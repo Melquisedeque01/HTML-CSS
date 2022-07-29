@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus repellendus dolor, eveniet debitis ipsam molestias doloribus labore itaque porro fuga minima facere. Iure soluta reiciendis velit, eaque dolorem eius quibusdam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod voluptates eum ullam tempora, necessitatibus delectus doloremque magnam eius atque voluptate laboriosam quas. Ab blanditiis accusamus placeat ipsam, ratione inventore eius?</p>
+        <h2>titulo 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut consequuntur facere, ducimus repellendus unde obcaecati praesentium, perferendis non quibusdam animi atque placeat accusamus, neque pariatur qui ipsum libero. Minima!</p>
+        <h2>titulo 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque esse impedit alias a beatae mollitia sed iusto quas. Quisquam voluptates id voluptate fugiat est accusantium ipsa cum adipisci commodi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequuntur libero architecto dolor nam quis explicabo rerum! Atque perspiciatis reiciendis fuga eveniet minus facere fugit tempore commodi, nisi dolor sunt.</p>
+        <h1>resultado da soma</h1>
+        <input type="number" name="txtn1" id="txtn1">
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="somar" onclick="somar()">
+        <div id="res">resultado</div>
+        <script>
+            function somar() {
+                var tn1 =window.document.getElementById('txtn1')
+                var tn2 =window.document.getElementById('txtn2')
+                var res=window.document.getElementById('res')
+                var n1 =Number(tn1.value)
+                var n2 =Number(tn2.value)
+                s = n1 + n2
+                res.innerHTML = `A somar de ${n1} e ${n2} é ${s}`
+
+            }
+        </script>
+    </main>
+    
+</body>
+</html>

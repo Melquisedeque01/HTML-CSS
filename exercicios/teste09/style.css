@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif
+}
+div:hover {
+    background-color: brown;
+    color: aliceblue;
+    width: 200px;
+}
+div:hover > p {
+    display: block;
+    color: aliceblue;
+    background-color: black;
+}
+div > p {
+    display: none;
+}

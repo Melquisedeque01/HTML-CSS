@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div {
+width: 200px;
+height: 200px;
+border-style: solid;
+display: inline-block;
+padding: 
+}
+div:hover{
+    background-color: aqua;
+}
+#nome {
+ flex
+}

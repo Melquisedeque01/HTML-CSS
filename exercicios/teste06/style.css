@@ -1,0 +1,19 @@
+@charset "UTF-8"; 
+body { 
+  background-color: aqua;
+  font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: rgb(230, 142, 54);
+    text-align: center;
+    background-color: blue;
+}
+h2 {
+    text-align: center;
+    color:rgb(230, 142, 54); ;
+    background-color: blue;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
